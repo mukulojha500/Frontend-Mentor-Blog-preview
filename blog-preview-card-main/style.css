@@ -1,0 +1,98 @@
+@import url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+@import url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+@import url("./assets/fonts/OFL.txt");
+@import url("./assets/fonts/static/Figtree-ExtraBold.ttf");
+@import url("./assets/fonts/static/Figtree-SemiBold.ttf");
+
+body{
+    background-color: rgb(244, 208, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 15px 15px 1px black;
+}
+
+.illustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.illustration img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.scripts{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.top-heading{
+    background-color: rgb(244, 208, 78);
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Figtree ExtraBold;
+}
+
+.date{
+    font-family: Figtree SemiBold;
+}
+
+.heading{
+    color: rgb(244, 208, 78);
+    font-family: Figtree ExtraBold;
+    cursor: pointer;
+    font-size: larger;
+    margin: 15px 0px;
+}
+
+.para{
+    font-family: Figtree SemiBold;
+    /* font-weight: lighter; */
+    color: grey;
+    margin: 10px 0px 20px 0px;
+}
+
+.footer{
+    position: relative;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer img{
+    max-width: fit-content;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.footer span{
+    font-family: Figtree ExtraBold;
+}
